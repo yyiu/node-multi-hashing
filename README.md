@@ -1,12 +1,8 @@
 node-multi-hashing
 ===============
 
-[![Build Status](https://travis-ci.org/zone117x/node-multi-hashing.png?branch=master)](https://travis-ci.org/zone117x/node-multi-hashing)
-
-[![NPM](https://nodei.co/npm/multi-hashing.png?downloads=true&stars=true)](https://nodei.co/npm/multi-hashing/)
-
 Cryptocurrency hashing functions for node.js.
-
+Modified version by ocminer for use with xzc (zcoin) - lyra2rev2 is modified to only work with xzc
 
 Algorithms
 ----------
@@ -26,11 +22,10 @@ Algorithms
 * qubit
 * hefty1
 * shavite3
-* cryptonight
-* boolberry
 
 Usage
 -----
+Use node v0.12+
 
 Install
 
