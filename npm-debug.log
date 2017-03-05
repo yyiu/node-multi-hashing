@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   './node-multi-hashing-master/' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ './node-multi-hashing-master/', null ]
+6 verbose cache add name=undefined spec="./node-multi-hashing-master/" args=["./node-multi-hashing-master/",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './node-multi-hashing-master/',
+7 verbose parsed url   path: './node-multi-hashing-master/',
+7 verbose parsed url   href: './node-multi-hashing-master/' }
+8 silly lockFile e688ff51-node-multi-hashing-master ./node-multi-hashing-master/
+9 verbose lock ./node-multi-hashing-master/ /root/.npm/e688ff51-node-multi-hashing-master.lock
+10 silly lockFile e688ff51-node-multi-hashing-master ./node-multi-hashing-master/
+11 silly lockFile e688ff51-node-multi-hashing-master ./node-multi-hashing-master/
+12 error addLocal Could not install ./node-multi-hashing-master/
+13 error Error: ENOENT, stat './node-multi-hashing-master/'
+14 error If you need help, you may report this *entire* log,
+14 error including the npm and node versions, at:
+14 error     <http://github.com/npm/npm/issues>
+15 error System Linux 2.6.32-042stab094.8
+16 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "./node-multi-hashing-master/"
+17 error cwd /root/node-multi-hashing-master
+18 error node -v v0.10.35
+19 error npm -v 1.4.28
+20 error path ./node-multi-hashing-master/
+21 error code ENOENT
+22 error errno 34
+23 verbose exit [ 34, true ]

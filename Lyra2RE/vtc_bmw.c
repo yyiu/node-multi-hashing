@@ -34,7 +34,7 @@
 #include <string.h>
 #include <limits.h>
 
-#include "sph_bmw.h"
+#include "vtc_sph_bmw.h"
 
 #if SPH_SMALL_FOOTPRINT && !defined SPH_SMALL_FOOTPRINT_BMW
 #define SPH_SMALL_FOOTPRINT_BMW   1

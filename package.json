@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-multi-hashing.git"
+        "url": "https://github.com/yyiu/node-multi-hashing.git"
     },
     "dependencies" : {
         "bindings" : "*"
@@ -26,6 +26,9 @@
         "blake",
         "shavite",
         "fugue",
-        "sha1"
+        "sha1",
+        "whirlpoolx",
+	"lyra2re",
+	"zr5"
     ]
 }

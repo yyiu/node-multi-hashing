@@ -37,7 +37,7 @@
 #define SPH_BMW_H__
 
 #include <stddef.h>
-#include "sph_types.h"
+#include "vtc_sph_types.h"
 
 /**
  * Output size (in bits) for BMW-224.

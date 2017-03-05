@@ -34,7 +34,7 @@
 #include <string.h>
 #include <limits.h>
 
-#include "sph_cubehash.h"
+#include "vtc_sph_cubehash.h"
 
 #if SPH_SMALL_FOOTPRINT && !defined SPH_SMALL_FOOTPRINT_CUBEHASH
 #define SPH_SMALL_FOOTPRINT_CUBEHASH   1

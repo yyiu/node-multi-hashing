@@ -34,7 +34,7 @@
 #include <string.h>
 #include <limits.h>
 
-#include "sph_blake.h"
+#include "vtc_sph_blake.h"
 
 #ifdef __cplusplus
 extern "C"{
